@@ -33,7 +33,7 @@ def betting(money):
 
 # Player Features
 def take_a_loan(money):
-    """Allows taking a loan with interest."""
+    """We WANT you to not be able to pay it back."""
     global debt, loan_taken
     max_loan, interest = 1_000_000, 1.15
 
@@ -54,7 +54,7 @@ def take_a_loan(money):
 
 def sign_in(money):
     """Handles special accounts."""
-    users = {"yeshuasgrandpa": 0, "gijoe": 10000, "iamsteve": 100000000, "iamsteveasachildiyearnedfortheslotmachines": float('inf')}
+    users = {"yzsgrandpa": 0, "gijoe": 10000, "iamsteve": 100000000, "iamsteveasachildiyearnedfortheslotmachines": float('inf')}
     
     while True:
         user = input("Username? (Enter to cancel) ")
@@ -83,7 +83,7 @@ def commands():
 # Games
 
 def slots(money):
-    """TUCA DONKA TUCA DONKA!"""
+    """For the next 4 minutes and 11 seconds..."""
     
     progressive_jackpot_pool = 50000
     print(f"\n💰 Your current balance: ${money}")
@@ -253,7 +253,7 @@ def blackjack(money):
             return money
 
 def russian_roulette(money):
-    """High-stakes Russian Roulette game."""
+    """Let's play a little game..."""
     
     while True:
         print(f"\n💰 Your current balance: ${money}")
